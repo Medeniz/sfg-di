@@ -3,14 +3,10 @@ package guru.springframework.di.services;
 import org.springframework.stereotype.Service;
 
 
-public class SetterInjectedGreetingService implements GreetingService{
-
-
+//@Service("i18nService")
+public class I18NSpanishService implements GreetingService{
     @Override
     public String sayGreeting() {
-        return "Hello World-Setter";
+        return "Hola Mundo- ES";
     }
-
 }
-
-
